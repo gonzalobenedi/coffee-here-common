@@ -1,3 +1,6 @@
+import { Coffee } from "./coffee";
+import { Roaster } from "./roaster";
+
 export type Store = {
   id: string;
   name: string;
@@ -8,4 +11,6 @@ export type Store = {
   city: string;
   country: string;
   usersRating: number;
+  coffees: Coffee[];
+  roasters: Roaster[];
 };
