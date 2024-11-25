@@ -1,0 +1,28 @@
+{
+  "name": "coffee-here-common",
+  "version": "1.0.0",
+  "description": "Common types and utilities used in Coffee Here App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"There are no tests\" && exit 0",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalobenedi/coffee-here-common.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Gonzalo Benedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzalobenedi/coffee-here-common/issues"
+  },
+  "homepage": "https://github.com/gonzalobenedi/coffee-here-common#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7"
+  }
+}
